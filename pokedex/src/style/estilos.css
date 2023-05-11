@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+
+}
+
+
+.Pokedex{
+
+    display: flex;
+    flex-direction: row;
+    flex-direction: center;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    -webkit-box-shadow: inset 10px 10px 105px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 105px 5px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 105px 5px rgba(0,0,0,0.75);
+
+}
+
+
+/* 
+img{
+    width: 100px;
+    height: 250px;
+} */
+
+
+.textArea{
+    padding-left: 20px;
+    color: white;
+}
+
+.textArea:hover{
+   color: rgb(0, 0, 0);
+}
+
+.card{
+    animation-name:back;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: black;
+
+    animation-direction: alternate-reverse;
+
+}
+
+
+@keyframes back {
+
+    0% {
+       
+        background-color: rgb(255, 255, 255);
+
+}
+
+    100% {
+        
+        background-color: black;
+
+}
+    
+}
+
+.moves{
+    display: flex;
+    
+    margin:50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-right: solid;
+    border: 5px black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+p{
+    background-color: red;
+    color:white;
+
+}
+
+#presentacion{
+    width: 100%;
+    background-color: #dc3545;
+}
